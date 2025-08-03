@@ -8,4 +8,9 @@
 
 5) Applied data blending to the sample super store dataset incorporating row-level security.
 6) Login Filter: ATTR([Sheet1 (rowsecurity)].[Email])=USERNAME()
+
+
+Implemented row level security for Leadership dashboard at work. Name of users are available in the workbook. So I used just one filter FULLNAME()==Column name.
+
+Modification request was President want to see all the rows so I've updated the filter to FULLNAME()==Column name OR FULLNAME()==President Name
    
